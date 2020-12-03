@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aoc2020.Puzzle2", "Aoc2020.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aoc2020.Puzzle2.Tests", "Aoc2020.Puzzle2.Tests\Aoc2020.Puzzle2.Tests.csproj", "{817C78A6-DD16-4FB3-8366-A7B8A42D5225}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aoc2020.Puzzle3", "Aoc2020.Puzzle3\Aoc2020.Puzzle3.csproj", "{2E665B66-C4C4-4661-9189-67A6A2ED86E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aoc2020.Puzzle3.Tests", "Aoc2020.Puzzle3.Tests\Aoc2020.Puzzle3.Tests.csproj", "{4BEC6B64-9899-4805-B865-1A325819782B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{817C78A6-DD16-4FB3-8366-A7B8A42D5225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{817C78A6-DD16-4FB3-8366-A7B8A42D5225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{817C78A6-DD16-4FB3-8366-A7B8A42D5225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E665B66-C4C4-4661-9189-67A6A2ED86E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E665B66-C4C4-4661-9189-67A6A2ED86E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E665B66-C4C4-4661-9189-67A6A2ED86E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E665B66-C4C4-4661-9189-67A6A2ED86E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEC6B64-9899-4805-B865-1A325819782B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEC6B64-9899-4805-B865-1A325819782B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEC6B64-9899-4805-B865-1A325819782B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEC6B64-9899-4805-B865-1A325819782B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
