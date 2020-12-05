@@ -1,12 +1,8 @@
 ﻿using System;
+using Aoc2020.Puzzle5;
+using Aoc2020.Shared;
 
-namespace Aoc2020.Puzzle5
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+var input = Utils.GetInputString();
+var answerCalculator = new AnswerCalculator();
+Console.WriteLine($"Solution 1: {answerCalculator.Calculate1(input)}");
+Console.WriteLine($"Solution 2: {answerCalculator.Calculate2(input)}");
