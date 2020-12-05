@@ -8,6 +8,10 @@ namespace Aoc2020.Shared
     {
         public const string DefaultInputPath = "input.txt";
         
+        public static string GetInputString(string input = DefaultInputPath)
+        {
+            return File.ReadAllText(input, Encoding.UTF8);
+        }
         public static string[] GetInputStrings(string input = DefaultInputPath)
         {
             return File.ReadAllLines(input, Encoding.UTF8);
