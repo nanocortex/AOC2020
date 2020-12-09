@@ -23,6 +23,12 @@ namespace Aoc2020.Shared
             return Array.ConvertAll(strings, int.Parse);
         }
         
+        public static long[] GetInputLongs(string input = DefaultInputPath)
+        {
+            var strings = GetInputStrings(input);
+            return Array.ConvertAll(strings, long.Parse);
+        }
+        
         public static double[] GetInputDoubles(string input = DefaultInputPath)
         {
             var strings = GetInputStrings(input);
